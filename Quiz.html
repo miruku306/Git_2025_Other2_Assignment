@@ -5,6 +5,16 @@
 	    <title>Quiz</title>
 	</head>
 	<body>
-		<script src="Quiz.js"></script>
+		<form id="quizForm">
+			<p>システム開発の早い段階で、目に見える形で利用者の要求が確認できるように確認用のソフトウェアを作成する<br>ソフトウェア開発のモデルとして、最も適切なものはどれか。</p>
+
+			<label><input type="radio" name="model" value="アジャイル"> アジャイル</label>
+    		<label><input type="radio" name="model" value="ウォーターフォール"> ウォーターフォール</label>
+    		<label><input type="radio" name="model" value="スパイラル"> スパイラル</label>
+    		<label><input type="radio" name="model" value="プロトタイピング" checked> プロトタイピング</label>
+
+    		<p><button type="submit">解答する</button></p>
+		</form>
+		<script src="Quiz.js" defer></script>
 	</body>
 </html>
